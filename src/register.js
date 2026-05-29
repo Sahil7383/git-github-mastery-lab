@@ -1,3 +1,8 @@
 function register() { }
 
-module.exports = { register };
+function validateEmail(email) { }
+
+module.exports = {
+    register,
+    validateEmail
+};
